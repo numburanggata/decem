@@ -24,10 +24,10 @@
           Dokumen
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">SOP</a>
-          <a class="dropdown-item" href="#">Petunjuk Teknis</a>
+          <a class="dropdown-item" href="{{ url('soppage') }}">SOP</a>
+          <a class="dropdown-item" href="{{ url('juknispage') }}">Petunjuk Teknis</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Risalah</a>
+          <a class="dropdown-item" href="{{ url('risalahpage') }}">Risalah</a>
         </div>
       </li>
       <li class="nav-item">
