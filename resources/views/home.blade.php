@@ -16,7 +16,7 @@
 	<p></p>
 	<p></p>
   	<main role="main" class="inner">
-    <h1 class="cover-heading text-light">Infirmition Tech Security Assessment</h1>
+    <h1 class="cover-heading text-light">Information Tech Security Assessment</h1>
     <div class="mx-auto" style="width: 500px;">
     	<p class="lead text-light">merupakan layanan publik terkait pengujian kerentanan, pemberian saran dan rekomendasi terkait pengamanan, guna meminimalisir celah kerawanan yang terdapat pada semua sistem informasi pemerintah.</p>
     </div>

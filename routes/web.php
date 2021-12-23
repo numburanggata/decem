@@ -33,6 +33,18 @@ Route::get('/kontak', function () {
     return view('kontak');
 });
 
+Route::get('/surveikerentanan', function () {
+    return view('blogs/survei');
+});
+
+Route::get('/metodologi-itsa', function () {
+    return view('blogs/metodologiitsa');
+});
+
+Route::get('/kerentanan-log4j', function () {
+    return view('blogs/log4j');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
