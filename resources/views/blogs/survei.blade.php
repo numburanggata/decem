@@ -24,7 +24,7 @@
 
 <div class="container-fluid padding">
     <div class="row padding justify-content-center">
-        <div class="col-9">
+        <div class="col-9" style="text-align: justify">
           <br>
             <p>Layanan E-government sekarang meningkat di pemerintahan karena penghematan biaya, waktu layanan, adaptif, serta meningkatkan kinerja. Dengan adanya peraturan dan pedoman terkait e-government yaitu Keputusan Presiden No. 3 Tahun 2003 untuk Sistem Pemerintahan Berbasis Elektronik (SPBE) membuat pelayanan publik mudah diakses oleh publik.</p>
             <p>Dibutuhkan suatu layanan pengujian keamanan untuk situs pemerintahan karena semakin maraknya serangan yang terjadi dan munculnya serangan baru. Kegiatan uji penetrasi dilakukan untuk mencari kerawanan yang ada di situs pemerintahan yang kemudian hasil tersebut dilaporkan untuk dilakukan perbaikan pada situsnya.</p>

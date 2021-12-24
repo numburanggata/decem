@@ -9,10 +9,10 @@
 @endsection
 
 @section('content')
-<div class="container-fluid padding py-4">
+<div class="container-fluid padding">
     <div class="row text-center">
         <div class="col-12">
-            <h1 class="display-4">Artikel</h1>
+            <h1 class="display-4 fw-bold">Artikel</h1>
         </div>
     </div>
 </div>
