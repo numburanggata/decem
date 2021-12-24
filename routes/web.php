@@ -45,6 +45,10 @@ Route::get('/kerentanan-log4j', function () {
     return view('blogs/log4j');
 });
 
+Route::get('/soppage', [App\Http\Controllers\SopController::class, 'index'])->name('soppage');
+Route::get('/juknispage', [App\Http\Controllers\JuknisController::class, 'index'])->name('juknispage');
+Route::get('/risalahpage', [App\Http\Controllers\RisalahController::class, 'index'])->name('risalahpage');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
