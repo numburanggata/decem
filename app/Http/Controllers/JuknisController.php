@@ -10,12 +10,8 @@ class JuknisController extends Controller
     /**
      * Create a new controller instance.
      *
-     * @return void
+     *
      */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
 
     /**
      * Show the application dashboard.
@@ -24,7 +20,7 @@ class JuknisController extends Controller
      */
     public function index()
     {
-        $jukni = Juknis::orderBy('id', 'ASC')->get();
+        $juknis = Juknis::orderBy('id', 'ASC')->get();
         return view('juknis', ['juknis'=>$juknis]);
     }
 }

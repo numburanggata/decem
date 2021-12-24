@@ -11,9 +11,6 @@ class Risalah extends Model
     protected $fillable = [
         'nama', 'file', 'gambar'
     ];
-    protected $table = 'sop';// use HasFactory;
-    protected $fillable = [
-        'nama', 'file', 'gambar'
-    ];
+
     protected $table = 'risalah';
 }
