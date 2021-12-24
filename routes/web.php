@@ -53,17 +53,8 @@ Route::get('/juknis', function () {
     return view('juknis');
 });
 
-Route::get('/risalah', function () {
-    return view('risalah');
-});
-
-Route::get('/bacajuknis', function () {
-    return view('juknis/juknis_1.pdf');
-});
-
 Route::get('/soppage', [App\Http\Controllers\SopController::class, 'index'])->name('soppage');
 Route::get('/juknispage', [App\Http\Controllers\JuknisController::class, 'index'])->name('juknispage');
-Route::get('/risalahpage', [App\Http\Controllers\RisalahController::class, 'index'])->name('risalahpage');
 
 Auth::routes();
 
