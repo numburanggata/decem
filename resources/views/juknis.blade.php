@@ -12,7 +12,7 @@
 <div class="container-fluid padding py-4">
   <div class="row text-center">
       <div class="col-12">
-          <h1 class="display-4">Petujuk Teknis</h1>
+          <h1 class="display-4">Petunjuk Teknis</h1>
       </div>
   </div>
 </div>

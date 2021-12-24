@@ -21,7 +21,8 @@ class SopController extends Controller
      */
     public function index()
     {
-        $sop = Sop::orderBy('id', 'ASC')->get();
-        return view('sop', ['sop'=>$sop]);
+        // $sop = Sop::orderBy('id', 'ASC')->get();
+        // return view('sop', ['sop'=>$sop]);
+        return view('sop');
     }
 }

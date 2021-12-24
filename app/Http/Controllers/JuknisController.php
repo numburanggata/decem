@@ -20,7 +20,8 @@ class JuknisController extends Controller
      */
     public function index()
     {
-        $juknis = Juknis::orderBy('id', 'ASC')->get();
-        return view('juknis', ['juknis'=>$juknis]);
+        // $juknis = Juknis::orderBy('id', 'ASC')->get();
+        // return view('juknis', ['juknis'=>$juknis]);
+        return view('juknis');
     }
 }
