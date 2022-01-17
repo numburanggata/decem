@@ -56,6 +56,6 @@ Route::get('/juknispage', function () {
 // Route::get('/soppage', [App\Http\Controllers\SopController::class, 'index'])->name('soppage');
 // Route::get('/juknispage', [App\Http\Controllers\JuknisController::class, 'index'])->name('juknispage');
 
-Auth::routes();
+// Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
